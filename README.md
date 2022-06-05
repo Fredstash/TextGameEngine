@@ -1,26 +1,31 @@
 # Overview
 
-I wanted to understand Java and so I felt like this would help me use many aspects of Java. I started with some basic functions and classes. After grasping functions and classes I studied the functionality of the Java collection ArrayList and recreated it to implement in my software
+I used this project as an opportunity to learn how to code in Rust. After getting into classes I realized that this probably isn't the best coding language for the project I made
 
-My software is a budget tracking app. It allows the user to input data into an ArrayList. They can store budget information, including the expense type, the current money spent, and the goal. The software also allows for the user to delete budget data. The software also allows the user to add money into the current money spent to any of the expense types.
+My project is a text based game engine. I built it on the premise of allowing game makers an easy way to populate a world and story without having to know code.
+The game engine is built using a numbering system for each of the rooms, North and South move the rooms up/down 100, and East and West move the rooms up/down 1,
+as displayed in the rooms' folder of this project. The game engine is built to replicate the Zork games.
 
-My primary purpose was to understand data structures in Java by implementing a homemade data structure to store budget data.
+The reason I wrote this code was to get a general understanding of the syntax of Rust. I built a program I had made in the past in python so that I could primarily focus on learning.
 
-[Software Demo Video](https://youtu.be/mx_HroeQnnk)
+
+[Software Demo Video](http://youtube.link.goes.here)
 
 # Development Environment
 
-* I primarily used Intellij for the development
-* This was all coded in Java
-* I used the scanner library
+* I used IntelliJ as my IDE by downloading a rust extension (Don't forget to install Rust directly to your computer)
+
+* I used the Rust language I used the std::fs, and the std::io::stdin libraries. The fs one was for reading files, and the stdin was for retrieving user input
 
 # Useful Websites
 
-* [ArrayList Example devgenius](https://blog.devgenius.io/creating-the-java-arraylist-data-structure-3df0b18ad43b) - I Used this for the basic setup of data structures.
-* [W3 Schools Casting](https://www.w3schools.com/java/java_type_casting.asp)
+* [Tuples in Rust documentation](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)
+* [str vs String StackOverflow](https://stackoverflow.com/questions/23975391/how-to-convert-a-string-into-a-static-str)
+* [Reading files in Rust documentation](https://doc.rust-lang.org/book/ch12-02-reading-a-file.html)
+* [Jimmco explanation of classes (structs)](https://jimmco.medium.com/classes-in-rust-c5b72c0f0a4c)
 
 # Future Work
 
-* Take the current date and give a suggestion on how they can meet their budget.
-* Save the budget in a file.
-* Build a nicer looking interface
+* I want a function that is built to populate the text files in the correct format for the game engine to read.
+* I need to make classes for enemies and objects.
+* Print out the data in a better format for the user.
